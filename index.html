@@ -14,7 +14,7 @@
 				<li><a href="hotels.html">Гостиницы</a></li>
 			</ul>
 			<a class="main-header-logo">
-				<img src="img/index-logo.svg" width="XXX" height="XXX" alt="Логотип Седоны">
+				<img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
 			</a>
 		</nav>
 	</header>
@@ -26,25 +26,52 @@
 		</section>
 		<section class="real-city">
 			<h2 class="visually-hidden">Настоящий городок</h2>
+			<img src="img/real-city.jpg" width="800" height="256" alt="Фото настоящего городка">
 		</section>
 		<section class="3-advantages">
 			<h2 class="visually-hidden">Первые 3 преимущества</h2>
 		</section>	
 		<section class="bridge">
 			<h2 class="visually-hidden">Мост дьявола</h2>
+			<img class="bridge" src="img/bridge.jpg" width="800" height="256" alt="Фото моста Дьявола">
 		</section>
 		<section class="3-more-advantages">
 			<h2 class="visually-hidden">Дополнительные 3 преимущества</h2>
 		</section>
 		<section class="interested">
 			<h2 class="visually-hidden">Форма обратной связи для заинтересовавшихся</h2>
-			<b><Заинтересовались?</b>
+			<b>Заинтересовались?</b>
 			<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			<form class="interested-form" action="https://echo.htmlacademy.ru" method="post">
+				<h3 class="interested-form">Поиск гостиницы в Седоне</h3>
+				<p class="interested-item">
+					<label for="interested-arrival-date">Дата заезда:</label>
+					<input id="interested-arrival-date" type="text" name="date" value="" placeholder="24 апреля 2017">
+				</p>
+				<p class="interested-item">
+					<label for="interested-depature-date">Дата выезда:</label>
+					<input id="interested-depature-date" type="text" name="date" value="" placeholder="4 июля 2017">
+				</p>
+				<p class="interested-item">
+					<label for="interested-adults-number">Взрослые:</label>
+    				<span class="interested-adults-number-minus">-</span>
+    				<input id="interested-adults-number" type="text" value="1" size="5" placeholder="2"/>
+    				<span class="interested-adults-number-plus">+</span>
+				</p>
+				<p class="interested-item">
+					<label for="interested-kids-number">Дети:</label>
+    				<span class="interested-kids-number-minus">-</span>
+    				<input id="interested-kids-number" type="text" value="1" size="5" placeholder="0"/>
+    				<span class="interested-kids-number-plus">+</span>
+				</p>
+				<button class="button" type="submit">Найти</button>	
+			</form>
+			</form>
 			<!--здесь будет форма -->
 		</section>
 		<section class="map">
 			<h2 class="visually-hidden">Карта Седоны</h2>
-			<img src="sedonamap.jpg" width="XXX" height="XXX" alt="Sedona map">
+			<img src="img/sedonamap.jpg" width="1200" height="594" alt="Sedona map">
 		</section>	
 	</main>
 	<footer class="main-footer">
@@ -57,7 +84,7 @@
 		<p class="footer-copyright">
 			Website by
 			<a href="https://htmlacademy.ru/">
-				<img src="html-academy-logo.svg" width="XXX" height="XXX" alt="HTML Academy logo">
+				<img src="img/logo-htmlacademy.svg" width="114" height="40" alt="HTML Academy logo">
 			</a>
 		</p>
 	</footer>
