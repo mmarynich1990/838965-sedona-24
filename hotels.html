@@ -23,51 +23,6 @@
 		<section class="Search-form">
 			<h2 class="visually-hidden">Форма поиска отелей в Седоне</h2>
 			<!-- Здесь идет форма поиска -->
-			<form class="search-hotel-form" action="https://echo.htmlacademy.ru" method="get">
-					<fieldset>
-						<legend>Инфраструктура</legend>
-						<ul>
-							<li class="filter-option">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
-								<label for="filter-swimming-pool">Бассейн</label>
-							</li>
-							<li class="filter-option">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking" id="filter-parking">
-								<label for="filter-parking">Парковка</label>
-							</li>
-							<li class="filter-option">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="wi-fi" id="filter-wi-fi">
-								<label for="filter-wi-fi">Wi-Fi</label>
-							</li>
-						</ul>
-					</fieldset>
-					<fieldset>
-						<legend>Тип жилья:</legend>
-						<ul>
-							<li class="filter-option">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-hotel" id="filter-hotel" checked>
-								<label for="filter-hotel">Гостиница</label>
-							</li>
-							<li class="filter-option">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-motel" id="filter-motel" checked>
-								<label for="filter-motel">Мотель</label>
-							</li>
-							<li class="filter-option">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-apartment" id="filter-apartment" checked>
-								<label for="filter-apartment">Апартаменты</label>
-							</li>
-						</ul>
-					</fieldset>
-					<fieldset>
-						<legend>Стоимость в сутки (Р):</legend>
-						<p class="price-filter">
-							<span>от 0</span>
-							<span>До 3000</span><br>
-							<input class="price-filter" name="price-filter" id="price-filter-field" type="range" min="0" max="3000" value="2600">
-						</p>
-					</fieldset>
-					<button type="submit" class="filter-button button">Показать</button>
-			</form>
 		</section>
 		<h2 class="visually-hidden">Найденные отели в Седоне</h2>
 		<section class="hotels-found">
@@ -76,16 +31,8 @@
 				<h3>Amara Resort & Spa</h3>
 				<p class="housing-type">Гостиница</p>
 				<p class="housing-price">От 4000 Р.</p>
-				<button class="more-details-amara" type="button">
-					<a class="button" href="more-details-amara.html">
-					Подробнее
-					</a>
-				</button>
-				<button class="book-amara" type="button">
-					<a class="button" href="book-amara.html">
-					Забронировать
-					</a>
-				</button>
+				<a class="button" href="more-details-amara.html" aria-label="Подробнее о гостинице Amara Resort & Spa">Подробнее</a>
+				<a class="button" href="book-amara.html" aria-label="Забронировать гостиницу Amara Resort & Spa"">Забронировать</a>
 				<span class="stars">4 stars</span>
 				<span class="rates">Рейтинг: 8,5</span>
 			</section>
@@ -94,16 +41,8 @@
 				<h3>Desert Quail Inn</h3>
 				<p class="housing-type">Мотель</p>
 				<p class="housing-price">От 3000 Р.</p>
-				<button class="more-details-desert-quail" type="button">
-					<a class="button" href="more-details-desert-quail.html">
-					Подробнее
-					</a>
-				</button>
-				<button class="book-desert-quail" type="button">
-					<a class="button" href="book-desert-quail.html">
-					Забронировать
-					</a>
-				</button>
+				<a class="button" href="more-details-desert-quail.html" aria-label="Подробнее о мотеле Desert Quail Inn">Подробнее</a>
+				<a class="button" href="book-desert-quail.html" aria-label="Забронировать мотель Desert Quail Inn">Забронировать</a>
 				<span class="stars">3 stars</span>
 				<span class="rates">Рейтинг: 8,9</span>	
 			</section>
@@ -112,16 +51,8 @@
 				<h3>Villas at Poco Diablo</h3>
 				<p class="housing-type">Апартаменты</p>
 				<p class="housing-price">От 2000 Р.</p>
-				<button class="more-details-poco-diablo" type="button">
-					<a class="button" href="more-details-poco-diablo.html">
-					Подробнее
-					</a>
-				</button>
-				<button class="book-poco-diablo" type="button">
-					<a class="button" href="book-poco-diablo.html">
-					Забронировать
-					</a>
-				</button>
+				<a class="button" href="more-details-poco-diablo.html" aria-label="Подробнее об апартаментах Villas at Poco Diablo">Подробнее</a>
+				<a class="button" href="book-poco-diablo.html" aria-label="Забронировать апартаменты Villas at Poco Diablo">Забронировать</a>
 				<span class="stars">2 stars</span>
 				<span class="rates">Рейтинг: 9,2</span>	
 			</section>
@@ -130,9 +61,9 @@
 	<footer class="main-footer">
 		<p class="footer-hashtag">#VISITSEDONA</p>
 		<ul>
-			<li><a  class="social-button" href="#">Twitter</a></li>
-			<li><a class="social-button" href="#">Facebook</a></li>
-			<li><a class="social-button" href="#">YouTube</a></li>
+			<li><a  class="social-button" href="#" aria-label="Наша страница в Twitter"></a></li>
+			<li><a class="social-button" href="#" aria-label="Наша страница в Facebook"></a></li>
+			<li><a class="social-button" href="#" aria-label="Наша страница в YouTube"></a></li>
 		</ul>
 		<p class="footer-copyright">
 			Website by
