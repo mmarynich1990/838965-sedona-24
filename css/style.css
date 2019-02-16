@@ -1,0 +1,275 @@
+
+body {
+margin: 0;
+font-family: 'PT Sans', Arial, sans-serif;
+font-size: 14px;
+line-height: 21px;
+font-weight: 400;
+color: #333333;
+text-transform: uppercase;
+background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+font-size: 14px;
+line-height: 26px;
+color: #ffffff;
+background-color: #000000;
+line-height: 26px;
+font-weight: 700;
+background-color: #ffffff;
+}
+
+.site-navigation {
+list-style: none;
+}
+
+.site-navigation a:link {
+color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus
+{
+color: #81b3d2;
+}
+
+.site-navigation a:active 
+{
+color: #b3b3b3;
+}
+
+.site-navigation a:visited
+{
+color: #000000;
+}
+
+.site-navigation a.current-page
+{
+color: #766357;
+}
+
+.intro p {
+color: #000000;
+background-color: #ffffff;
+font-family: "PT Sans";
+font-size: 21px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.intro p:nth-child(2) {
+color: #333333;
+background-color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.button {
+font: inherit;
+text-align: center;
+background-color: #81b3d2;
+color: #ffffff;
+vertical-align: middle;
+border: none;
+text-transform: uppercase;
+border: none;
+}
+
+.interested b {
+color: #000000;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+}
+
+.interested p {
+text-align: center;
+}
+
+h3.interested-form{
+color: #ffffff;
+font-family: "PT Sans";
+font-size: 21px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+background-color: #766357;
+text-align: center;
+}
+
+h3.interested-form:hover,
+h3.interested-form:focus {
+background-color: #604e43;
+}
+
+h3.interested-form:active {
+background-color: #503e33;
+color: #847870; 
+}
+
+
+.interested-form .button {
+font-size: 21px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+background-color: #81b3d2;
+}
+
+.button:hover,
+.button:focus{
+background-color: #669ec0;
+}
+.button:active {
+background-color: #5496bd;
+color: #87b5d1;
+
+}
+
+
+p.interested-item {
+color: #000000;
+font-size: 14px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+}
+
+.interested-item input {
+font: inherit;
+background-color: #f2f2f2;
+border: none;
+}
+.interested-item input:focus {
+background-color: #ffffff;
+border: 2px solid #e5e5e5;
+}
+.interested-item input:hover {
+background-color: #ebebeb;
+}
+
+.interested-item button
+ {
+ color: #a9a9a9;
+}
+
+.interested-item button:hover,
+.interested-item button:focus,
+ {
+ color: #000000;
+}
+
+.interested-item button:active
+ {
+ color: #81b3d2;
+}
+
+p.footer-hashtag {
+font-size: 21px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+color: #000000;
+background-color: #ffffff;
+}
+
+p.footer-copyright{
+color: #000000;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+}
+
+p.footer-copyright {
+color: #000000;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+}
+
+.hotels-found h3 {
+color: #000000;
+font-size: 21px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+}
+
+.hotels-found h3:hover,
+.hotels-found h3:focus {
+color: #81b3d2;;
+}
+
+.hotels-found h3:active {
+color: #b3b3b3;
+}
+
+.hotels-found p{
+color: #333333;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-transform: uppercase;
+}
+
+.hotels-found a.more-about {
+color: #ffffff;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+text-transform: uppercase;
+background-color: #81b3d2;
+}
+
+.hotels-found a.more-about:hover,
+.hotels-found a.more-about:focus {
+color: #ffffff;
+background-color:#669ec0;
+}
+
+.hotels-found a.more-about:active {
+color: #87b5d1;
+background-color: #5496bd;
+}
+
+.hotels-found a.book-hotel{
+color: #ffffff;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+text-transform: uppercase;
+background-color: #766357;
+}
+
+.hotels-found a.book-hotel:hover,
+.hotels-found a.book-hotel:focus {
+color: #ffffff;
+background-color:#604e43;
+}
+
+.hotels-found a.book-hotel:active {
+color: #847870;
+background-color: #503e33;
+}
+
+span.rates{
+color: #666666;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-transform: uppercase;
+background-color: #f2f2f2;
+}
